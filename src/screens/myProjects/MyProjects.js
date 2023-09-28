@@ -9,8 +9,8 @@ const data = [
   {
     image: image1,
     title: 'Blog Website',
-    description: " is a dynamic and user-friendly platform for reading and creating blog posts. It leverages the power of React.js for the front-end, Firebase for the backend, and HTML/CSS for styling and structure. This project aims to provide an engaging and responsive web experience for both writers and readers.",
-    url: 'https://blogproject-a042e.web.app/',
+    description: "It is a dynamic and user-friendly platform for reading and creating blog posts. It leverages the power of React.js for the front-end, Firebase for the backend, and HTML/CSS for styling and structure. This project aims to provide an engaging and responsive web experience for both writers and readers.",
+    url: 'https://myblog-two-orcin.vercel.app/',
     tech: ['React.js', 'Firebase',"HTML","CSS"]
   },
   {

@@ -55,7 +55,7 @@ function Navbar() {
           </li>
           <li className="navbar-links-li">
          
-           <a href="https://blogproject-a042e.web.app/" style={{color : "white" ,textDecoration: "none"}}>  Blog{" "}</a>
+           <a href="https://myblog-two-orcin.vercel.app/" style={{color : "white" ,textDecoration: "none"}}>  Blog{" "}</a>
            
           </li>
           <li className="navbar-links-li">
