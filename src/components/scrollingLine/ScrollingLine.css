@@ -1,0 +1,15 @@
+/* ScrollingLine.css */
+
+.scroll-line {
+    position: fixed;
+    width: 10px;
+    height: 0;
+    border-bottom: 4px solid blue; /* Blue color and thicker line */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+  }
+  

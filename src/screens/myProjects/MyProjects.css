@@ -1,0 +1,212 @@
+
+.myProjects{
+    background-color: rgb(38, 38, 38);
+ padding: 20px 0 30px 0;
+
+}
+
+.myProjects-head {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.myProjects-head >h1 {
+
+  font-size: 45px;
+  color: rgb(4, 155, 225);
+
+  width: 88%;
+
+}
+.myProjects-container{
+    width: 100%;
+    margin-top: 15px;
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.myProjects-imagesContainers {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+
+width: 80%;
+
+  }
+  
+  .image-text-container {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    animation: fade-in-up 0.8s ease-out;
+    border-radius: 2%;
+    background-color: #04131d;
+    align-items: center;
+    margin-top: 33px;
+
+  }
+  
+  .even {
+    flex-direction: row-reverse;
+  }
+  
+  .odd {
+    flex-direction: row;
+  }
+  
+  .myProjects-imagesContainers-image {
+    flex: 0 0 40%;
+    max-width: 40%;
+    overflow: hidden;
+  }
+  
+ /* MyProjects.css */
+/* ... (your existing CSS) */
+
+.myProjects-imagesContainers-image img {
+    width: 100%;
+    height: 260px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    transition: transform 0.3s, box-shadow 0.3s, filter 0.3s; /* Add filter transition */
+}
+
+.myProjects-imagesContainers-image img:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 30px 0px;
+    filter: blur(2px); /* Add blur effect on hover */
+}
+  
+  .myProjects-imagesContainers-product-info {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+ 
+    color: white;
+    margin: 20px;
+    width: 10%;
+    box-sizing: border-box;
+    
+  }
+  /* MyProjects.css */
+/* ... (your existing CSS) */
+
+.myProjects-imagesContainers-product-title {
+    font-size: 28px;    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color: white;
+    margin-bottom: 10px; /* Add some spacing between title and description */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+  }
+  
+  .myProjects-description {
+    font-size: 16px;
+    width: 90%;
+    color: #cccccc; /* Use a slightly lighter gray color for description */
+    line-height: 1.6; /* Improve readability with slightly increased line height */
+  }
+  
+  .tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .tech-item {
+    background-color: gray;
+    border-radius: 12%;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+
+  .bouncing-ball {
+    position: absolute;
+    margin-top: -20px; 
+    z-index: 3;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #49abed 30%, #3498db 100%); /* Gradient effect */
+    box-shadow: 0 2px 6px rgba(172, 172, 172, 0.3); /* 3D-like shadow */
+    animation: bounce 1s infinite ease-in-out;
+  }
+  
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    20%, 80% {
+      transform: translateY(-22px); /* Bounce up */
+    }
+    40%, 60% {
+      transform: translateY(-29px); /* Peak of bounce */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .myProjects-head > h1 {
+      margin-top: 20px;
+      font-size: 30px; /* Adjust font size for smaller screens */
+      width: 100%;
+      text-align: center; /* Center-align the title */
+    }
+  
+    .myProjects-imagesContainers {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center;
+      width: 97%;
+    }
+  
+    .image-text-container {
+      flex-direction: column; /* Stack text below image on smaller screens */
+      width: 80%; /* Adjust container width for better spacing */
+      margin: 15px auto; /* Center-align containers */
+    }
+  
+    .myProjects-imagesContainers-image {
+      flex: 0 0 100%; /* Make images take full width on smaller screens */
+      max-width: 100%;
+      overflow: hidden;
+    }
+  
+    .myProjects-imagesContainers-product-info {
+      width: 100%; /* Make info take full width on smaller screens */
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .myProjects-description {
+      font-size: 14px; /* Adjust font size for description */
+    }
+  
+    .tech-list {
+      margin-top: 5px; /* Reduce margin for better spacing */
+    }
+  
+    .tech-item {
+      font-size: 12px; /* Adjust font size for tech items */
+    }
+  
+    .bouncing-ball {
+      margin-top: -15px; /* Adjust position of the bouncing ball */
+      margin-left: 0;
+    }
+  }

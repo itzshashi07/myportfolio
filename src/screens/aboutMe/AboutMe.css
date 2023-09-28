@@ -1,0 +1,51 @@
+.aboutMe{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 00px 0 25px 0;
+}
+.aboutMe-container> p{
+ width: 70%;
+
+}
+.aboutMe-container{
+    margin: 20px 0;
+    width: 88%;
+}
+.aboutMe-head >h1{
+    font-size: 45px;
+  color: rgb(4, 155, 225);
+}
+.aboutMe-big-text{
+    font-size: 250px;
+    position: absolute;
+    color: rgba(54, 54, 54,0.4);
+    right: 0;
+    margin-top: 13px;
+   opacity: 4;
+  
+}
+
+/* Media Query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .aboutMe {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0;
+    }
+  
+    .aboutMe-container > p {
+      width: 100%;
+    }
+  
+    .aboutMe-head > h1 {
+      font-size: 30px;
+    }
+  
+    .aboutMe-big-text {
+      font-size: 150px;
+      margin-top: 5px;
+    }
+  }

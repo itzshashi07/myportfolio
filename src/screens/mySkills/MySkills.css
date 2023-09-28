@@ -1,0 +1,149 @@
+/* 
+.mySkill{
+    background-color: rgb(38, 38, 38);
+   
+
+}
+
+.mySkill-imagesContainers {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    width: 84%;
+    padding: 10px;
+  }
+  
+  .image-text-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 40px 0;
+  
+  }
+  
+  .even {
+    flex-direction: row-reverse;
+  }
+  
+  .odd {
+    flex-direction: row;
+  }
+  
+  .mySkill-imagesContainers-image {
+    flex: 0 0 40%;
+    max-width: 40%;
+    overflow: hidden;
+  }
+  
+  .mySkill-imagesContainers-image>  img {
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .mySkill-imagesContainers-product-info {
+    flex: 1;
+    padding: 50px;
+    color: white;
+    margin: 20px;
+    box-sizing: border-box;
+  }
+  
+  .mySkill-imagesContainers-product-title {
+    font-size: 24px;
+    color: white;
+
+  }
+  
+  .mySkill-imagesContainers-product-description {
+    font-size: 16px;
+    color: white;
+
+  }
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .image-text-container {
+    animation: fade-in-up 0.8s ease-out;
+  }
+
+
+  
+   */
+.mySkill {
+  background-color: rgb(16, 16, 16);
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 00px 0 25px 0;
+}
+.mySkill-container{
+  margin: 20px 0;
+  
+  overflow: hidden;
+  width:98%;
+ }
+.mySkill-head{
+width: 88%;
+margin: 0 auto;
+}
+.mySkill-head >h1{
+    font-size: 45px;
+  color: rgb(4, 155, 225);
+}
+/* MySkills.css */
+.mySkill-main {
+
+  display: flex;
+  animation: circularMotion 15s linear infinite;
+}
+
+@keyframes circularMotion {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  margin-right: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-box:hover {
+
+  transform: scale(1.05);
+}
+
+.skill-box > img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.skill-box > p {
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .mySkill {
+display: none;
+  }
+}
