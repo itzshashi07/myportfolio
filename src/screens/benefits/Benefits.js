@@ -47,8 +47,8 @@ function Benefits() {
 
 </div>
 <div className='benefits-right-box'>
-<h2 className='benefits-right-box-text'>100%</h2>
-<h2 className='benefits-right-box-text'>Passion</h2>
+<h2 className='benefits-right-box-text'>Social Media</h2>
+<h2 className='benefits-right-box-text'>Marketing</h2>
 
 </div>
      

@@ -45,6 +45,13 @@ function Banner() {
           <span className='text'>s</span>
            <span className='text'>h</span>
            <span className='text'>i</span>
+           <br/>
+           <span className='text'>K</span>
+          <span className='text'>u</span>
+           <span className='text'>m</span>
+           <span className='text'>a</span>
+           <span className='text'>r</span>
+
 
            {/* <span className='text'> K</span>
           <span className='text'>u</span>
