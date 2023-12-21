@@ -10,7 +10,7 @@ function Benefits() {
         
     <div className='benefits-head'>
         
-    <h2 className='benefits-head-title' >Fetures</h2>
+    <h2 className='benefits-head-title' >Features</h2>
       <h3>What I do.</h3>
     </div>
 
@@ -27,14 +27,14 @@ function Benefits() {
       <div className='benefits-boxes-right'>
     
         <div className='benefits-right-box'>
-            <h3 className='benefits-right-box-text'>Web </h3>
-            <h3 className='benefits-right-box-text'>Development</h3>
+            <h3 className='benefits-right-box-text'>Portfolio </h3>
+            <h3 className='benefits-right-box-text'> website making </h3>
             {/* <p className='benefits-right-box-p'>International companies</p> */}
 
         </div>
         <div className='benefits-right-box'>
-        <h3 className='benefits-right-box-text'>App </h3>
-            <h3 className='benefits-right-box-text'>Development</h3>
+        <h3 className='benefits-right-box-text'>UI/UX </h3>
+            <h3 className='benefits-right-box-text'>Design </h3>
         {/* <p className='benefits-right-box-p'>of experience</p> */}
 
     </div>
@@ -42,13 +42,13 @@ function Benefits() {
 
 
               <div className='benefits-right-box'>
-    <h2 className='benefits-right-box-text'>SEO</h2>
+    <h2 className='benefits-right-box-text'>College Projects </h2>
     {/* <p className='benefits-right-box-p'>Projects done </p> */}
 
 </div>
 <div className='benefits-right-box'>
 <h2 className='benefits-right-box-text'>Social Media</h2>
-<h2 className='benefits-right-box-text'>Marketing</h2>
+<h2 className='benefits-right-box-text'>Handling </h2>
 
 </div>
      

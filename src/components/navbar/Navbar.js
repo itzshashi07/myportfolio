@@ -36,7 +36,7 @@ function Navbar() {
               offset={-20}
               duration={500}
             >
-              Fetures{" "}
+              Features{" "}
             </Link>
           </li>
           <li className="navbar-links-li">
