@@ -3,7 +3,7 @@
     height: 88vh;
     display: flex;
     justify-content: center;
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(118, 91, 91);
     font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: none;
 }
@@ -47,8 +47,8 @@
   line-height: 44px;
   font-size: 15px;
  
-  background-color: rgb(36, 36, 36);
-  border: 1px solid blue;
+  background-color: rgb(92, 56, 56);
+  border: 1px solid rgb(33, 33, 62);
   color: #fff;
   letter-spacing: 3px;
   /* box-shadow: 6px 0px 0px #00E6F6; */
@@ -75,12 +75,12 @@
   right: 0;
   bottom: 0;
   background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #399de9 5%);
-  text-shadow: -3px -3px 0px #00aeff, 3px 3px 0px #00E6F6;
+  text-shadow: -3px -3px 0px #1d343e, 3px 3px 0px #00E6F6;
   clip-path: var(--slice-0);
 }
 .button-glitch:hover{
     transform: translateY(-1px);
-    box-shadow: 0px 5px 10px 2px rgba(49, 151, 246, 0.7);
+    box-shadow: 0px 5px 10px 2px rgba(41, 59, 77, 0.7);
 }
 .button-glitch:hover:after {
   animation: 1s glitch;
@@ -144,7 +144,7 @@
     height: 400px;
     border-radius: 50%;
     overflow: hidden;
-    background-color: blue;
+    background-color: rgb(55, 55, 85);
     /* commented for demo
     float: left;
     margin-left: 125px;
