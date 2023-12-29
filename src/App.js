@@ -26,7 +26,6 @@ function App() {
     style={{ left: position.x - 25, top: position.y - 25 }}
   />
     <Navbar />
-    
     <LandingPages/>
     <Footer />
 
